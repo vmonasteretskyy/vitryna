@@ -1,6 +1,7 @@
 @media(max-width: 1199.8px) {
     .main-cities a {
-        font-size: 16px;
+        font-size: 15px;
+        line-height: normal;
     }
 
     .main-cities a img {
@@ -109,6 +110,31 @@
         align-items: flex-start;
     }
 
+    .og-rightsect {
+        display: none;
+    }
+
+
+    .og-rightsect.showphone {
+        display: block;
+    }
+
+    .ogprod__small-descr {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media(max-width:767.8px) {
@@ -178,7 +204,7 @@
         position: absolute;
         background-color: #fff;
         left: 0;
-        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+        box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.15);
         width: 100%;
         text-align: left;
         margin: 0;
@@ -221,6 +247,7 @@
         border: 1px solid #666666;
         box-sizing: border-box;
         border-radius: 5px;
+        cursor: pointer;
     }
 
     .leftsb__categoryphonebtn span {
@@ -257,14 +284,129 @@
         margin-bottom: 0;
     }
 
+    .bredcrumbs ul li a,
+    .bredcrumbs ul li {
+        font-size: 13px;
+    }
 
+    .slider-section .slider-for {
+        margin-bottom: 10px;
+    }
 
+    .ogprod-title {
+        font-size: 16px;
+        margin: 0;
+    }
 
+    .ogprod-price {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
 
+    .ogprod-info {
+        padding-bottom: 4px;
+    }
 
+    .ogprod__authorcont {
+        padding: 15px 0;
+        border-bottom: 1px solid rgba(120, 120, 120, 0.4);
+    }
 
+    .ogprod__authorcont>p {
+        margin-bottom: 0;
+    }
 
+    .phonesbox ul li a {
+        font-size: 13px;
+        min-height: 20px;
+        padding-left: 27px;
+    }
 
+    .phonesbox ul li a:after {
+        width: 20px;
+        height: 20px;
+        top: 0;
+    }
+
+    .ogprod__authorcont-phones .socbox a img {
+        width: 20px;
+    }
+
+    .ogprod__authorcont-phones {
+        margin-bottom: 9px;
+    }
+
+    .ogprod__small-descr {
+        padding-top: 16px;
+        margin-bottom: 8px;
+    }
+
+    .ogprod__small-descr .title {
+        font-size: 13px;
+    }
+
+    .ogprod__small-descr .descr,
+    .full-description p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .full-description p:first-child {
+        margin-bottom: 0;
+    }
+
+    .full-description,
+    .og-leftsect .general-piclink {
+        margin-bottom: 20px;
+    }
+
+    .advert-recomended .title {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .advrec-block__pic {
+        max-width: 120px;
+        flex: 0 0 120px;
+        height: 100px;
+        margin-right: 10px;
+        margin-bottom: 4px;
+    }
+
+    .advrec-block__descr {
+        max-width: calc(100%);
+        flex: 0 0 calc(100%);
+        padding-left: 0;
+    }
+
+    .advrec-block {
+        display: block;
+    }
+
+    .advrec-block__pic {
+        float: left;
+    }
+
+    .advrec__title,
+    .advrec__price {
+        font-size: 15px;
+    }
+
+    .advrec__info-time span,
+    .advrec__info-place span {
+        font-size: 13px;
+    }
+
+    .advrec__bottsect-left {
+        display: none;
+    }
+
+    .advrec__bottsect .advrec__bottsect-right {
+        max-width: 100%;
+        flex: 0 0 100%;
+        text-align: right;
+    }
 
     .leftsb__category {
         display: none;
@@ -276,8 +418,6 @@
     .rightsb {
         display: none;
     }
-
-
 
 }
 
