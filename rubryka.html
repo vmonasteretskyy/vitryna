@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static page</title>
+    <title>Рубрика</title>
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
         rel="stylesheet">
@@ -71,7 +71,7 @@
     </header>
 
     <main>
-        <div class="vitrynapage-wrapper">
+        <div class="rubrpage-wrapper">
             <div class="container whitebg">
                 <div class="row">
                     <div class="col-lg-3 col-md-3">
@@ -219,106 +219,536 @@
                                     </li>
                                 </ul>
                             </div>
+                            <div class="leftsb__filterphonebtn">
+                                <span>фільтр пошуку</span>
+                                <img src="images/arrdown.svg" alt="arrow">
+                            </div>
+
+                            <div class="filter-section">
+                                <div class="filter-section__price">
+                                    <p class="title">ціна</p>
+                                    <div class="inpf">
+                                        <div class="inpf-inp">
+                                            <input type="text" placeholder="ВІД">
+                                            <input type="text" placeholder="ДО">
+                                        </div>
+                                        <div class="inpf-btn">
+                                            <span>₴ (грн.)</span>
+                                            <input type="submit" value="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-section__time">
+                                    <p class="title">час подачі <img src="images/arrdown.svg" alt="arrow"></p>
+                                    <div class="check-section check-section__time">
+                                        <div class="check-field">
+                                            <input type="checkbox" id="check1">
+                                            <label for="check1">Усі</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="check2">
+                                            <label for="check2">За останні 24 години</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="check3">
+                                            <label for="check3">За останній тиждень</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="check4">
+                                            <label for="check4">За останні 4 тижні</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="filter-section__region">
+                                    <p class="titlereg">вибрати РЕГІОН <img src="images/arrdown.svg" alt="arrow"></p>
+                                    <div class="check-section check-section__reg">
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg1">
+                                            <label for="reg1">Усі</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg2">
+                                            <label for="reg2">Калуш</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg3">
+                                            <label for="reg3">Рожнятів</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg4">
+                                            <label for="reg4">Долина</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg2">
+                                            <label for="reg2">Калуш</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg3">
+                                            <label for="reg3">Рожнятів</label>
+                                        </div>
+                                        <div class="check-field">
+                                            <input type="checkbox" id="reg4">
+                                            <label for="reg4">Долина</label>
+                                        </div>
+                                        <p class="subcheckdrop">
+                                            <span class="subcheckdrop__more">Показати всі регіони <img
+                                                    src="images/arrdown.svg" alt="arrow"></span>
+                                            <span class="subcheckdrop__less">Приховати регіони <img
+                                                    src="images/arrdown.svg" alt="arrow"></span>
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
                             <a href="#" class="general-piclink">
                                 <img src="images/pic1.png" alt="pic">
                             </a>
                         </aside>
                     </div>
                     <div class="col-lg-7 col-md-6">
-                        <div class="vitrcontent">
-                            <div class="vitrcont-text">
+                        <div class="rubr-content">
+                            <div class="bredcrumbs">
+                                <ul>
+                                    <li><a href="#"><img src="images/home-ic.png" alt="home"></a></li>
+                                    <li><a href="#">Товари для дітей</a></li>
+                                    <li><a href="#">Продам</a></li>
+                                    <li>Візки/коляски1</li>
+                                </ul>
+                            </div>
+                            <div class="sortsection">
                                 <p>
-                                    «Вітрина оголошень. Калуш, Рожнятів, Долина» – регіональна газета безкоштовних
-                                    оголошень
-                                    і
-                                    реклами.
-                                </p>
-                                <p>
-                                    Виходить з 2008 року. Тираж – 4700 екземплярів.
-                                </p>
-                                <p>
-                                    Періодичність виходу – 1 раз/тиждень (четвер). Об’єм видання – 28 стор. (формат А3).
-                                </p>
-                                <p>
-                                    Розповсюджується через пункти продажу преси Калуського, Рожнятівського та
-                                    Долинського
-                                    районів. Ціна – 6,50 грн.
-                                </p>
-                                <p>
-                                    В кожному випуску газети є близько 2500 оголошень. Також видання містить
-                                    бізнес-довідку,
-                                    телепрограму на 20 найпопулярніших каналів, інформаційні статті, гороскоп, кулінарні
-                                    рецепти
-                                    та анекдоти.
-                                </p>
-                                <p>
-                                    Передплатний індекс – 37444.
-                                </p>
-                                <h4>КОРОТКА ІСТОРІЯ ГАЗЕТИ
-                                </h4>
-                                <p>
-                                    В липні 2008 року вийшов перший примірник газети «Вітрини Калуша». Він складався із
-                                    6
-                                    сторінок та 2-колірної обкладинки. Звичайно, оголошень було ще дуже мало, а більша
-                                    частина
-                                    тиражу розповсюджувалась безкоштовно на вулицях міста. Та вже тоді стало зрозуміло,
-                                    що
-                                    така
-                                    газета в Калуші потрібна.
-                                </p>
-                                <p>
-                                    Певний час люди ще приглядалися, не дуже довіряли «безкоштовності» оголошень. Проте,
-                                    коли
-                                    впевнились у тому, що схема справді дієва і доступна, для багатьох газета стала
-                                    незамінним
-                                    помічником.
-                                </p>
-                                <p>
-                                    Вже через рік тираж газети зріс більше, ніж удвічі, а кількість оголошень – майже в
-                                    20
-                                    разів. Паралельно розширювались рубрики, росла кількість сторінок, розширювалась
-                                    телепрограма. Газета, постійно вдосконалюючись, впевнено набирала обертів.
-                                </p>
-                                <p>
-                                    2 річницю вже святкували в статусі добре відомого в Калуському районі видання. 3500
-                                    читачів
-                                    щотижня чекали на свіжий випуск. І це означало лише одне – «Вітрина Калуша» впевнено
-                                    зайняла
-                                    своє місце під сонцем.
-                                </p>
-                                <p>
-                                    У липні 2009 року стала виходити аналогічна газета "Вітрина Надвірної", а в липні
-                                    2013
-                                    року
-                                    вийшов перший випуск "Вітрини Коломиї".
-                                </p>
-                                <p>
-                                    Суттєвим кроком у перед, у відповідь на численні запити наших читачів, стало
-                                    розширення
-                                    сфер
-                                    розпосюдження газет. Так, з лютого 2017 року "Вітрина оголошень. Калуш, Рожнятів,
-                                    Долина"
-                                    стала доступною також в Рожнятівському та Долинському районах. А до Коломиї та
-                                    Надвірної
-                                    додалися Косів, Снятин і Яремче.
-                                </p>
-                                <p>
-                                    Минулого літа видання відсвяткувало свою 11-ту річницю. Але навіть зараз не можна
-                                    сказати що
-                                    вершина досягнута – досі постійно відзначається тенденція росту кількості інформації
-                                    та
-                                    читачів. Тираж становить 4700 екземплярів/тиждень, кількість оголошень - до 2500
-                                    щотижня.
-                                </p>
-                                <p>
-                                    Але ми не стоїмо на місці – наша історія впевнено пишеться далі. Зокрема, активно
-                                    розвивається даний портал, який з самого початку почав стрімко набирати
-                                    відвідуваність і
-                                    зараз є одним із найвідвідуваніших регіональних сайтів.
+                                    сортування
+                                    <select name="" id="">
+                                        <option value="0">найновіші</option>
+                                        <option value="1">дешеві</option>
+                                        <option value="2">дорогі</option>
+                                    </select>
                                 </p>
                             </div>
-                            <div class="text-center mt-4">
-                                <a href="#" class="general-piclink"><img src="images/pic5.png" alt="pic"></a>
+                            <div class="greybg rubrcont">
+                                <p class="title">топ оголошення</p>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="general-piclink"><img src="images/pic6.png" alt="img"></a>
+                                <div class="advrec-block">
+                                    <span class="top">топ</span>
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="whitebg rubrcont">
+                                <p class="title">оголошення</p>
+                                <div class="advrec-block">
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="general-piclink"><img src="images/pic7.png" alt="img"></a>
+                                <div class="advrec-block">
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="advrec-block">
+                                    <div class="advrec-block__pic">
+                                        <img src="images/slide1.png" alt="img">
+                                    </div>
+                                    <div class="advrec-block__descr">
+                                        <p class="advrec__title">Lorem ipsum</p>
+                                        <p class="advrec__price">1500 грн.</p>
+                                        <div class="advrec__info">
+                                            <div class="advrec__info-time">
+                                                <img src="images/clock.png" alt="icon">
+                                                <span>07.02.2020</span>
+                                            </div>
+                                            <div class="advrec__info-place">
+                                                <img src="images/marker.png" alt="icon">
+                                                <span>Бережниця, Калуш</span>
+                                            </div>
+                                        </div>
+                                        <p class="advrec__descr">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut...
+                                        </p>
+
+                                        <div class="advrec__bottsect">
+                                            <div class="advrec__bottsect-left">
+                                                <img src="images/person.png" alt="icon">
+                                                <span>Олег Андрійович</span>
+                                            </div>
+                                            <div class="advrec__bottsect-right">
+                                                <a href="#">Детальніше...</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pagination">
+                                <ul>
+                                    <li><a href="#"><img src="images/arrleft.svg" alt="prev"></a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">5</a></li>
+                                    <li><a href="#">6</a></li>
+                                    <li><a href="#">7</a></li>
+                                    <li><a href="#"><img src="images/arrleft.svg" alt="next"></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>

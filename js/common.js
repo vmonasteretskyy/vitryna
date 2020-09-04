@@ -27,14 +27,33 @@ $(document).ready(function () {
             arrows: false,
         });
     }
+    // -
+    $('.filter-section__time .title').click(function () {
+        $('.check-section.check-section__time').slideToggle();
+        $('.filter-section__time .title img').toggleClass('rotate');
+    })
 
+    $('.filter-section__region .titlereg').click(function () {
+        $('.check-section.check-section__reg').slideToggle();
+        $('.filter-section__region .titlereg img').toggleClass('rotate');
+    });
+    // -
+    $('.subcheckdrop .subcheckdrop__more').click(function () {
+        $('.check-section.check-section__reg .check-field:nth-child(n+5)').show();
+        $(this).hide();
+        $('.subcheckdrop .subcheckdrop__less').show();
+    });
+    $('.subcheckdrop .subcheckdrop__less').click(function () {
+        $('.check-section.check-section__reg .check-field:nth-child(n+5)').hide();
+        $(this).hide();
+        $('.subcheckdrop .subcheckdrop__more').show();
+    });
 
-
-
-
-
-
-
+    // filter phone
+    $('.leftsb__filterphonebtn').click(function () {
+        $('.filter-section').slideToggle();
+        $('.leftsb__filterphonebtn img').toggleClass('rotate');
+    });
 
 
 

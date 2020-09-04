@@ -43,10 +43,20 @@
         right: 1px;
     }
 
+    .filter-section__price .inpf .inpf-inp {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 10px;
+    }
 
+    .filter-section__price .inpf .inpf-btn {
+        max-width: calc(100%);
+        flex: 0 0 calc(100%);
+    }
 
-
-
+    .filter-section__price .inpf .inpf-inp input {
+        width: 46%;
+    }
 
 }
 
@@ -123,9 +133,24 @@
         margin-bottom: 20px;
     }
 
+    .rubrcont .advrec-block {
+        display: block;
+    }
 
+    .rubrcont .advrec-block__pic {
+        max-width: 120px;
+        flex: 0 0 120px;
+        height: 100px;
+        margin-right: 10px;
+        margin-bottom: 4px;
+        float: left;
+    }
 
-
+    .rubrcont .advrec-block__descr {
+        max-width: calc(100%);
+        flex: 0 0 calc(100%);
+        padding-left: 0;
+    }
 
 
 
@@ -419,6 +444,63 @@
         display: none;
     }
 
+    .leftsb__filterphonebtn {
+        display: block;
+        padding-top: 10px;
+        border-top: 1px solid #C9C9C9;
+    }
+
+    .filter-section__price {
+        border-top: none;
+    }
+
+    .filter-section__price .inpf .inpf-inp {
+        max-width: 160px;
+        flex: 0 0 160px;
+        margin-bottom: 0;
+    }
+
+    .filter-section__price .inpf .inpf-btn {
+        max-width: 85px;
+        flex: 0 0 85px;
+    }
+
+    .rubrpage-wrapper .bredcrumbs {
+        padding-left: 0;
+    }
+
+    .leftsb__filterphonebtn,
+    .filter-section {
+        display: none;
+    }
+
+    .leftsb__filterphonebtn {
+        display: block;
+    }
+
+    .filter-section__time .title img,
+    .filter-section__region .titlereg img,
+    .leftsb__filterphonebtn img {
+        margin-top: -2px;
+    }
+
+    .leftsb__filterphonebtn img.rotate {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+
+
+
+
+
+
+
+
+
 }
 
 @media(max-width: 575.8px) {
@@ -442,5 +524,9 @@
 
     .burger-icon {
         margin-left: 5px;
+    }
+
+    .pagination ul li {
+        margin: 0;
     }
 }
