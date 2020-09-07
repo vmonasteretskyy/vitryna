@@ -162,7 +162,7 @@
 
 }
 
-@media(max-width:767.8px) {
+@media(max-width:991.8px) {
     .phone-hide {
         display: none;
     }
@@ -492,9 +492,24 @@
         -o-transform: rotate(180deg);
     }
 
+    .col-lg-5.col-7 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
 
+    .burger-icon {
+        margin-left: 10px;
+    }
 
+    .general-piclink.showphone {
+        display: block;
+        margin: 10px 0 14px 0;
+    }
 
+    .general-piclink.showphone img {
+        width: 100%;
+    }
 
 
 

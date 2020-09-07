@@ -37,17 +37,17 @@ $(document).ready(function () {
         $('.check-section.check-section__reg').slideToggle();
         $('.filter-section__region .titlereg img').toggleClass('rotate');
     });
-    // -
-    $('.subcheckdrop .subcheckdrop__more').click(function () {
-        $('.check-section.check-section__reg .check-field:nth-child(n+5)').show();
-        $(this).hide();
-        $('.subcheckdrop .subcheckdrop__less').show();
-    });
-    $('.subcheckdrop .subcheckdrop__less').click(function () {
-        $('.check-section.check-section__reg .check-field:nth-child(n+5)').hide();
-        $(this).hide();
-        $('.subcheckdrop .subcheckdrop__more').show();
-    });
+    // // -
+    // $('.subcheckdrop .subcheckdrop__more').click(function () {
+    //     $('.check-section.check-section__reg .check-field:nth-child(n+5)').show();
+    //     $(this).hide();
+    //     $('.subcheckdrop .subcheckdrop__less').show();
+    // });
+    // $('.subcheckdrop .subcheckdrop__less').click(function () {
+    //     $('.check-section.check-section__reg .check-field:nth-child(n+5)').hide();
+    //     $(this).hide();
+    //     $('.subcheckdrop .subcheckdrop__more').show();
+    // });
 
     // filter phone
     $('.leftsb__filterphonebtn').click(function () {
@@ -55,6 +55,25 @@ $(document).ready(function () {
         $('.leftsb__filterphonebtn img').toggleClass('rotate');
     });
 
+    // select
+    (function () {
 
+        $('.language-dropdown').on('click', '.language-change a', function (ev) {
+            if ("#" === $(this).attr('href')) {
+                ev.preventDefault();
+                var parent = $(this).parents('.language-dropdown');
+                parent.find('.change-text').html($(this).html());
+            }
+        });
+
+        $('.category-dropdown').on('click', '.category-change a', function (ev) {
+            if ("#" === $(this).attr('href')) {
+                ev.preventDefault();
+                var parent = $(this).parents('.category-dropdown');
+                parent.find('.change-text').html($(this).html());
+            }
+        });
+
+    }());
 
 });
