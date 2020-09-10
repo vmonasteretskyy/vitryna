@@ -213,6 +213,7 @@ header .submitanad:hover {
     display: inline-flex;
     vertical-align: middle;
     position: relative;
+    display: inline-block;
 }
 
 .header__menu ul li:after {
