@@ -150,10 +150,9 @@ body {
 }
 
 header .linkpic {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
     margin-bottom: 30px;
+    display: block;
+    text-align: right;
 }
 
 header .linkpic img {
@@ -1379,6 +1378,7 @@ header .submitanad:hover {
 }
 
 .sortsection.dropdown.category-dropdown>a {
+    display: inline-block;
     font-size: 14px;
     font-family: 'Ubuntu', sans-serif;
     line-height: normal;
@@ -1395,6 +1395,8 @@ header .submitanad:hover {
 .sortsection p {
     margin: 0 8px 0 0;
     line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .sortsection.dropdown.category-dropdown>a img {
