@@ -931,25 +931,23 @@ header .submitanad:hover {
 }
 
 .filter-section__price .inpf {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
 }
 
 .filter-section__price .inpf .inpf-inp {
     max-width: 160px;
-    flex: 0 0 160px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: inline-block;
 }
 
 .filter-section__price .inpf .inpf-btn {
-    max-width: calc(100% - 160px);
+    /* max-width: calc(100% - 160px); */
     /* flex: 0 0 calc(100% - 160px); */
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 10px;
+    display: inline-block;
+    width: calc(100% - 165px);
 }
 
 
@@ -986,7 +984,7 @@ header .submitanad:hover {
     margin-top: -2px;
     max-width: 20px;
     width: 100%;
-    flex: 0 0 20px;
+    vertical-align: middle;
 }
 
 .filter-section__time {
@@ -1193,9 +1191,7 @@ header .submitanad:hover {
     height: 20px;
     align-items: center;
     justify-content: center;
-    max-width: 120px;
-    width: 100%;
-    padding-bottom: 2px;
+    padding: 0 11px 2px 12px;
 }
 
 .greybg.rubrcont .advrec-block .advrec__bottsect .advrec__bottsect-right a:hover {

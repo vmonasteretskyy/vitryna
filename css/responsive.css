@@ -50,8 +50,7 @@
     }
 
     .filter-section__price .inpf .inpf-btn {
-        max-width: calc(100%);
-        flex: 0 0 calc(100%);
+        width: 100%;
     }
 
     .filter-section__price .inpf .inpf-inp input {
