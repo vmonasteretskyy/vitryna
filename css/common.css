@@ -572,6 +572,7 @@ header .submitanad:hover {
     border-radius: 5px;
     overflow: hidden;
     display: inline-block;
+    width: 100%;
 }
 
 .advrec-block__pic img {
@@ -586,6 +587,7 @@ header .submitanad:hover {
     flex: 0 0 100%;
     padding-left: 29px;
     display: inline-block;
+    width: 100%;
 }
 
 .advrec__title {
@@ -1261,7 +1263,9 @@ header .submitanad:hover {
 .pagination ul li a {
     width: 30px;
     height: 30px;
-    display: inline-flex;
+    padding: 7px 4px;
+    text-align: center;
+    display: inline-block;
     align-items: center;
     justify-content: center;
     text-decoration: none;
@@ -1273,7 +1277,11 @@ header .submitanad:hover {
     line-height: 18px;
     color: #000000;
     font-family: 'Roboto', sans-serif;
+    display: inline-block;
+
 }
+
+
 
 .pagination ul li:first-child a img,
 .pagination ul li:last-child a img {
@@ -1545,8 +1553,15 @@ header .submitanad {
     top: -1px;
 }
 
+.pagination ul li:first-child a,
+.pagination ul li:last-child a {
+    width: 20px;
+}
 
-
+.pagination ul li:first-child a img,
+.pagination ul li:last-child a img {
+    width: 14px;
+}
 
 /* font-family: gothic; 
 font-family: 'Roboto', sans-serif;
