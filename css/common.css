@@ -1243,8 +1243,9 @@ header .submitanad:hover {
 }
 
 .pagination {
-    justify-content: center;
     margin-top: 20px;
+    display: block;
+    text-align: center;
 }
 
 .pagination ul {
