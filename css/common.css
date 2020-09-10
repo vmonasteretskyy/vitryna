@@ -207,6 +207,7 @@ header .submitanad:hover {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: block;
 }
 
 .header__menu ul li {
@@ -1168,6 +1169,7 @@ header .submitanad:hover {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     margin-bottom: 20px;
+    display: flex;
 }
 
 .advrec__bottsect-right {
