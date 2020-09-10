@@ -571,6 +571,7 @@ header .submitanad:hover {
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 5px;
     overflow: hidden;
+    display: inline-block;
 }
 
 .advrec-block__pic img {
@@ -584,6 +585,7 @@ header .submitanad:hover {
     max-width: calc(100% - 145px);
     flex: 0 0 100%;
     padding-left: 29px;
+    display: inline-block;
 }
 
 .advrec__title {
@@ -867,6 +869,7 @@ header .submitanad:hover {
     color: #000000;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    display: inline-block;
 }
 
 .ogprod__small-descr .descr {
