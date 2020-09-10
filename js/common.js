@@ -76,4 +76,10 @@ $(document).ready(function () {
 
     }());
 
+    // sidebar submenu
+    $('.leftsb__category ul li p').click(function () {
+        $(this).next().slideToggle();
+    });
+
+
 });
