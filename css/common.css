@@ -572,6 +572,7 @@ header .submitanad:hover {
     overflow: hidden;
     display: inline-block;
     width: 100%;
+    float: left;
 }
 
 .advrec-block__pic img {
@@ -582,11 +583,10 @@ header .submitanad:hover {
 }
 
 .advrec-block__descr {
-    max-width: calc(100% - 145px);
-    flex: 0 0 100%;
+
     -ms-flex: 0 0 100%;
-    padding-left: 29px;
-    display: inline-block;
+    padding-left: 175px;
+    display: block;
     width: 100%;
 }
 
@@ -650,19 +650,19 @@ header .submitanad:hover {
 }
 
 .advrec__bottsect {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: block;
+
 }
 
 .advrec__bottsect .advrec__bottsect-left {
-    max-width: 60%;
-    flex: 0 0 60%;
+    width: 48%;
+    display: inline-block;
 }
 
 .advrec__bottsect .advrec__bottsect-right {
-    max-width: 40%;
-    flex: 0 0 40%;
+    width: 48%;
+    text-align: right;
+    display: inline-block;
 }
 
 .advrec__bottsect .advrec__bottsect-left img {
@@ -1174,7 +1174,7 @@ header .submitanad:hover {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     margin-bottom: 20px;
-    display: flex;
+    display: block;
 }
 
 .advrec__bottsect-right {
