@@ -63,7 +63,7 @@ body {
 .main-cities span {
     padding-left: 3px;
     max-width: calc(100% - 26px);
-    flex: 0 0 calc(100% - 26px);
+    /* flex: 0 0 calc(100% - 26px); */
 }
 
 .main-cities a:last-child {
@@ -326,7 +326,7 @@ header .submitanad:hover {
 }
 
 .leftsb__category ul li text {
-    flex: 0 0 calc(100% - 20px);
+    /* flex: 0 0 calc(100% - 20px); */
     max-width: calc(100% - 20px);
     padding-left: 10px;
     font-size: 14px;
@@ -579,7 +579,7 @@ header .submitanad:hover {
 
 .advrec-block__descr {
     max-width: calc(100% - 145px);
-    flex: 0 0 calc(100% - 145px);
+    /* flex: 0 0 calc(100% - 145px); */
     padding-left: 29px;
 }
 
@@ -815,7 +815,7 @@ header .submitanad:hover {
 
 .ogprod__authorcont-phones .socbox {
     max-width: calc(100% - 180px);
-    flex: 0 0 calc(100% - 180px);
+    /* flex: 0 0 calc(100% - 180px); */
 }
 
 .phonesbox ul li:not(:last-child) {
@@ -937,7 +937,7 @@ header .submitanad:hover {
 
 .filter-section__price .inpf .inpf-btn {
     max-width: calc(100% - 160px);
-    flex: 0 0 calc(100% - 160px);
+    /* flex: 0 0 calc(100% - 160px); */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -965,7 +965,7 @@ header .submitanad:hover {
     font-family: 'Roboto', sans-serif;
     max-width: calc(100% - 20px);
     width: 100%;
-    flex: 0 0 calc(100% - 20px);
+    /* flex: 0 0 calc(100% - 20px); */
 }
 
 .filter-section__price .inpf .inpf-btn input[type="submit"] {
