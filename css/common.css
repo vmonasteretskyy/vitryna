@@ -168,9 +168,8 @@ header .linkpic img {
 }
 
 header .submitanad {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    text-align: center;
     max-width: 320px;
     width: 100%;
     background: #FF0000;
